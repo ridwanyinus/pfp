@@ -39,7 +39,7 @@ const Footer = () => {
             <div
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border-black-300 rounded-lg mb-2">
-              <img src={profile.img} alt={profile.id} width={20} height={20} />
+              <img src={profile.img} alt="image profile" width={20} height={20} />
             </div>
           ))}
         </div>
