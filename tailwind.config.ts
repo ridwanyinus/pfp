@@ -19,9 +19,23 @@ const config = {
     },
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+      },
+      screens: {
+        xs: "360px",
+        small: "470px",
+        medium: "730px",
+        // navsize: "850px",
+        // tablet: "1183px",
+        desktop: "1439px",
+        largesceen: "1700px",
+      },
+      backgroundImage: {
+        "instagram-gradient": "linear-gradient(to right, #8a2387, #e94057, #f27121)",
+        "gradient-gmail": "linear-gradient(to right, #DB4437, #F4B400, #0F9D58, #4285F4)",
       },
 
       colors: {
@@ -45,6 +59,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        telegram: "rgb(25, 173, 206)",
+        linkedin: "#0077B5",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -74,6 +90,7 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
