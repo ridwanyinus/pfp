@@ -1,27 +1,27 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Typed from "typed.js";
+import Types, { TypesOptions } from "types.js"; // Ensure correct import
 
-const TypedComponent: React.FC = () => {
-  const typedElement = useRef<HTMLDivElement>(null);
+const TypesComponent: React.FC = () => {
+  const typesElement = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const options: Typed.TypedOptions = {
+    const options: TypesOptions = {
       strings: ["Front-End Developer.", "Graphic Designer.", "Web Designer."],
       typeSpeed: 60,
       loop: true,
     };
 
-    if (typedElement.current) {
-      const typed = new Typed(typedElement.current, options);
+    if (typesElement.current) {
+      const types = new Types(typesElement.current, options);
 
       return () => {
-        typed.destroy();
+        types.destroy();
       };
     }
   }, []);
 
-  return <div ref={typedElement} className="element"></div>;
+  return <div ref={typesElement} className="element"></div>;
 };
 
-export default TypedComponent;
+export default TypesComponent;
