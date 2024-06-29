@@ -28,12 +28,12 @@ const Hero = () => {
             Ridwan <span className="block">Yinus</span>
           </h1>
 
-          <p className="flex gap-x-1 text-base xs:text-xl small:text-2xl lg:text-3xl xl:text-4xl largesceen:text-5xl desktop:mt-2 items-center">
-            I&apos;m a {""}{" "}
+          <div className="flex gap-x-1 text-base xs:text-xl small:text-2xl lg:text-3xl xl:text-4xl largesceen:text-5xl desktop:mt-2 items-center">
+            <p className="">I&apos;m a {""} </p>
             <span className="pl-1 border-purple border-b inline-flex leading-none  h-fit text-purple">
               <TypedComponent />
             </span>
-          </p>
+          </div>
 
           <div className="flex items-center  md:gap-4 gap-6 mt-8">
             <a
