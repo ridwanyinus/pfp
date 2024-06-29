@@ -23,6 +23,7 @@ const config = {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
+        prompt: ["Prompt", "sans-serif"],
       },
       screens: {
         xs: "360px",
@@ -32,13 +33,19 @@ const config = {
         // tablet: "1183px",
         desktop: "1439px",
         largesceen: "1700px",
+        fourk: "1950px",
       },
       backgroundImage: {
         "instagram-gradient": "linear-gradient(to right, #8a2387, #e94057, #f27121)",
         "gradient-gmail": "linear-gradient(to right, #DB4437, #F4B400, #0F9D58, #4285F4)",
+        "gradient-to-r-primary": "linear-gradient(to right, #52646E, #147670)",
       },
 
       colors: {
+        gradient: {
+          light: "#CBACF9",
+          dark: "#147670",
+        },
         black: {
           DEFAULT: "#000",
           100: "#000319",
