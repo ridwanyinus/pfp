@@ -3,7 +3,6 @@ import { Spotlight } from "./ui/Spotlight";
 import Image from "next/image";
 import dev from "../public/hero.png";
 import TypedComponent from "./ui/TypedComponent";
-import { socialMedia } from "@/data";
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import { GoMail } from "react-icons/go";
 import gmail from "../public/gmail.svg";
