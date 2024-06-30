@@ -39,6 +39,7 @@ const config = {
         "instagram-gradient": "linear-gradient(to right, #8a2387, #e94057, #f27121)",
         "gradient-gmail": "linear-gradient(to right, #DB4437, #F4B400, #0F9D58, #4285F4)",
         "gradient-to-r-primary": "linear-gradient(to right, #52646E, #147670)",
+        "custom-gradient": "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       },
 
       colors: {
@@ -104,6 +105,14 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -180,6 +189,7 @@ const config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        "meteor-effect": "meteor 5s linear infinite",
       },
     },
   },
