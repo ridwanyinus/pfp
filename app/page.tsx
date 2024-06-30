@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import About from "@/components/About";
 import { LampDemo } from "@/components/LampEffects";
+import Services from "@/components/Services";
 export default function Home() {
   return (
     <main className="relative bg-black-100 justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5 ">
@@ -19,6 +20,8 @@ export default function Home() {
         <Hero />
         <LampDemo />
         <About />
+        <LampDemo />
+        <Services />
         <Grid />
         <RecentProjects />
         <Clients />

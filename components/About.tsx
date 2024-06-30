@@ -6,6 +6,8 @@ import Lottie from "react-lottie";
 import Image from "next/image";
 import MagicButton from "./ui/MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import chart from "@/public/chart.png";
+import chart1 from "@/public/chart1.png";
 
 const About = () => {
   const [copied, setCopied] = useState(false);
@@ -52,7 +54,7 @@ const About = () => {
               <span className="pr-4 w-[60px]  md:w-[60px] lg:w-[108px] inline-flex">Birthday</span> : Dec 05
             </p>
 
-            <p className="font-normal font-outfit text-xs xs:text-[0.8rem] small:text-base md:text-[13px] lg:text-base desktop:text-lg 2xl:text-xl  text-slate-400 mb-4 relative z-50">
+            <p className="bg-cyan-900 font-normal font-outfit text-xs xs:text-[0.8rem] small:text-base md:text-[13px] lg:text-base desktop:text-lg 2xl:text-xl  text-slate-400 mb-4 relative z-50">
               <span className="pr-4 w-[60px] md:w-[60px] lg:w-[108px] inline-flex">Phone</span> : +(234) 8166319747
             </p>
 
@@ -83,6 +85,28 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <div className="mt-24 max-lg:gap-12 flex flex-col justify-center max-lg:text-center lg:flex-row  lg:justify-between  w-full items-center">
+        <div className="flex flex-col gap-4  lg:w-1/3 ">
+          <h2 className="font-outfit text-4xl text-purple mb-4 font-medium">Part Programmer</h2>
+          <p className="font-poppins text-lg">Front-end development </p>
+          <p className="font-poppins text-lg"> HTML / CSS </p>
+          <p className="font-poppins text-lg">JavaScript - Tsx - Jsx </p>
+          <p className="font-poppins text-lg">React.js - Next.js </p>
+        </div>
+
+        <div className="lg:w-1/3 w-auto max-lg:order-1">
+          <Image alt="chart" src={chart1} quality={100} />
+        </div>
+
+        <div className="flex flex-col gap-4 lg:w-1/3 lg:pl-16 xl:pl-28 desktop:pl-36 2xl:pl-48">
+          <h2 className="font-outfit text-4xl text-purple mb-4 font-medium">Part Designer</h2>
+          <p className="font-poppins text-lg">Logo Design</p>
+          <p className="font-poppins text-lg">Branding </p>
+          <p className="font-poppins text-lg">Flyer Design </p>
+          <p className="font-poppins text-lg">Interaction Design</p>
+        </div>
+      </div>
     </main>
   );
 };
