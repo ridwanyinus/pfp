@@ -89,4 +89,25 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+/* custom.css */
+.custom-scrollbar {
+  overflow-y: scroll;
+}
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Adjust scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbacf9; /* Thumb color */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Adds space around thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b89ded; /* Thumb color on hover */
+}

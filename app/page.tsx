@@ -13,7 +13,7 @@ import { LampDemo } from "@/components/LampEffects";
 import Services from "@/components/Services";
 export default function Home() {
   return (
-    <main className="relative bg-black-100 justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5 ">
+    <main className="relative bg-black-100 justify-center items-center flex-col  mx-auto sm:px-10 px-5 custom-scrollbar  overflow-y-scroll">
       <div className="w-full">
         <FloatingNav navItems={navItems} />
         <Ridwan />
