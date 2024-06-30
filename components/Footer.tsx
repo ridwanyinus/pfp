@@ -21,7 +21,7 @@ const Footer = () => {
         <p
           className="text-white-200 md:mt-10 my-5 text-center
  ">
-          Reach out to me toady and let&apos;s discuss how i can help you achieve your goals.
+          Get in touch with me via social media or email.
         </p>
         <a href="mailto:ridwanyinusa15@gmail.com">
           <MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />

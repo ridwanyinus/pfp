@@ -54,7 +54,7 @@ const About = () => {
               <span className="pr-4 w-[60px]  md:w-[60px] lg:w-[108px] inline-flex">Birthday</span> : Dec 05
             </p>
 
-            <p className="bg-cyan-900 font-normal font-outfit text-xs xs:text-[0.8rem] small:text-base md:text-[13px] lg:text-base desktop:text-lg 2xl:text-xl  text-slate-400 mb-4 relative z-50">
+            <p className="font-normal font-outfit text-xs xs:text-[0.8rem] small:text-base md:text-[13px] lg:text-base desktop:text-lg 2xl:text-xl  text-slate-400 mb-4 relative z-50">
               <span className="pr-4 w-[60px] md:w-[60px] lg:w-[108px] inline-flex">Phone</span> : +(234) 8166319747
             </p>
 
