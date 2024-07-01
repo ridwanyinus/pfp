@@ -27,7 +27,7 @@ const About = () => {
     setCopied(true);
   };
   return (
-    <main id="about" className="pt-5 lg:pt-10 xl:pt-24 desktop:pt-36 largesceen:pt-48  px-5 xl:px-14 desktop:px-24 largesceen:px-48 relative z-10 w-full pb-20">
+    <main id="about" className="pt-5 lg:pt-10 xl:pt-24 desktop:pt-36 largesceen:pt-48  px-5 xl:px-14 desktop:px-24 largesceen:px-48 relative z-10 w-full h-full pb-20">
       <h2 className="mx-auto block w-full text-5xl 2xl:text-7xl font-prompt font-black bg-gradient-to-r text-center">
         <span className="pr-2 relative z-10 bg-gradient-to-r from-gradient-light to-gradient-dark text-transparent bg-clip-text lg:hidden"> ABOUT ME</span>
         <span className=" pr-2 relative z-10 hidden lg:block"> ABOUT ME</span>
