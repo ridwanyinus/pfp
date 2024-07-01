@@ -8,7 +8,7 @@ import React from "react";
  *  add margin of md:mt-10
  *  remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
  */
-const MagicButton = ({ title, icon, position, handleClick, otherClasses }: { title: string; icon: React.ReactNode; position: string; handleClick?: () => void; otherClasses?: string }) => {
+const MagicButton = ({ title, icon, position, handleClick, otherClasses }: { title?: string; icon?: React.ReactNode; position?: string; handleClick?: () => void; otherClasses?: string }) => {
   return (
     <button className="relative inline-flex h-10 small:h-12 md:h-9 lg:h-12 2xl:h-14 w-full md:w-52 lg:w-60 desktop:w-64 2xl:w-[19rem] largesceen:w-[21rem] overflow-hidden rounded-lg p-[1px] focus:outline-none" onClick={handleClick}>
       <span className="" />

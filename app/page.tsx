@@ -11,9 +11,10 @@ import { navItems } from "@/data";
 import About from "@/components/About";
 import { LampDemo } from "@/components/LampEffects";
 import Services from "@/components/Services";
+import TechStack from "@/components/TechStack";
 export default function Home() {
   return (
-    <main className="relative bg-black-100 justify-center items-center flex-col  mx-auto sm:px-10 px-5 custom-scrollbar  overflow-y-scroll">
+    <main className="relative bg-black-100 justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <div className="w-full">
         <FloatingNav navItems={navItems} />
         <Ridwan />
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <LampDemo />
         <Services />
+        <TechStack />
         <Grid />
         <RecentProjects />
         <Clients />

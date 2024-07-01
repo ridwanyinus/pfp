@@ -76,7 +76,7 @@ const About = () => {
 
             <div className="relative">
               <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie options={defaultOptions} height={200} width={400}  />
               </div>
               <MagicButton title={copied ? "Email is Copied!" : "Copy my email address"} icon={<IoCopyOutline />} position="left" handleClick={handleCopy} />
             </div>
