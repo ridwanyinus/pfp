@@ -23,9 +23,9 @@ export default function Home() {
         <LampDemo />
         <Services />
         <TechStack />
-        <Grid />
         <RecentProjects />
-        <Experience />
+        <Grid />
+        {/* <Experience /> */}
         <Approach />
         <Footer />
       </div>
