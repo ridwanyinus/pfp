@@ -37,26 +37,26 @@ const Hero = () => {
 
           <div className="flex items-center  md:gap-4 gap-6 mt-8">
             <a
-              href="https://github.com/ridwanyinus"
+              href="https://rebrand.ly/830xft7"
               className="w-10 h-10 desktop:h-14 desktop:w-14 largesceen:h-16 largesceen:w-16 flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border-black-300 rounded-lg  hover:bg-black">
               <FaGithub size={23} className="desktop:w-[35px] desktop:h-[35px] largesceen:w-[40px] largesceen:h-[40px]" />
             </a>
 
             <a
-              href="https://mail.google.com/mail/u/0/?to=ridwanyinusa15@gmail.com&fs=1&tf=cm"
+              href="https://rebrand.ly/466gibm"
               className="w-10 h-10 desktop:h-14 desktop:w-14 largesceen:h-16 largesceen:w-16  flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border-black-300 rounded-lg  hover:bg-white  group">
               <Image src={gmail} width={27} alt="gmail" className="desktop:w-[35px] desktop:h-[35px] largesceen:w-[40px] largesceen:h-[40px] group-hover:opacity-100 opacity-0" />
               <GoMail size={23} className="group-hover:opacity-0 opacity-100 absolute desktop:w-[35px] desktop:h-[35px] largesceen:w-[40px] largesceen:h-[40px]" />
             </a>
 
             <a
-              href="https://t.me/Labile_6"
+              href="https://rebrand.ly/toj7234"
               className="w-10 h-10 desktop:h-14 desktop:w-14 largesceen:h-16 largesceen:w-16  flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border-black-300 rounded-lg  hover:bg-telegram">
               <FaTelegram size={23} className="desktop:w-[35px] desktop:h-[35px] largesceen:w-[40px] largesceen:h-[40px]" />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/ridwan-opeyemi-yinusa/"
+              href="https://rebrand.ly/wcaz0xn"
               className="w-10 h-10 desktop:h-14 desktop:w-14 largesceen:h-16 largesceen:w-16  flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border-black-300 rounded-lg  hover:bg-linkedin">
               <FaLinkedin size={23} className="desktop:w-[35px] desktop:h-[35px] largesceen:w-[40px] largesceen:h-[40px]" />
             </a>

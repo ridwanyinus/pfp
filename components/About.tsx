@@ -76,7 +76,7 @@ const About = () => {
 
             <div className="relative">
               <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
-                <Lottie options={defaultOptions} height={200} width={400}  />
+                <Lottie options={defaultOptions} height={200} width={400} />
               </div>
               <MagicButton title={copied ? "Email is Copied!" : "Copy my email address"} icon={<IoCopyOutline />} position="left" handleClick={handleCopy} />
             </div>
@@ -90,9 +90,9 @@ const About = () => {
         <div className="flex flex-col gap-4  lg:w-1/3 ">
           <h2 className="font-outfit text-4xl text-purple mb-4 font-medium">Part Programmer</h2>
           <p className="font-poppins text-lg">Front-end development </p>
-          <p className="font-poppins text-lg"> HTML / CSS </p>
-          <p className="font-poppins text-lg">JavaScript - Tsx - Jsx </p>
-          <p className="font-poppins text-lg">React.js - Next.js </p>
+          <p className="font-poppins text-lg"> HTML | CSS </p>
+          <p className="font-poppins text-lg">JavaScript &gt; Tsx &gt; Jsx </p>
+          <p className="font-poppins text-lg">React.js | Next.js </p>
         </div>
 
         <div className="lg:w-1/3 w-auto max-lg:order-1">
